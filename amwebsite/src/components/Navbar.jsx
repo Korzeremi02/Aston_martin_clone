@@ -1,5 +1,5 @@
 import '../styles/Navbar.css'
-import MenuLogo from '../assets/menu.svg'
+import MenuLogo from '../assets/menu.png'
 import AMLogo from '../assets/amlogo.png'
 
 export default function Navbar() {

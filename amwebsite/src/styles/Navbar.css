@@ -1,6 +1,43 @@
 .Navbar {
     width: 100vw;
-    height: 10vh;
+    height: 7vh;
     background-color: #000000;
-    opacity: 0.45;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+    position: fixed;
+    backdrop-filter: blur(5px);
+}
+
+.NavbarMenuSct {
+    height: 7vh;
+    width: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NavbarMenuLogo {
+    height: 55%;
+    width: auto;
+}
+
+.NavbarLogoSct {
+    height: 7vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#NavbarAMLogo {
+    height: 65%;
+    width: auto;
+}
+
+.NavbarBtnSct {
+    height: 7vh;
+    width: 7vw;
 }

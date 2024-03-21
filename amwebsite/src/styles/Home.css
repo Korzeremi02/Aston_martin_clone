@@ -1,0 +1,53 @@
+.Home {
+    height: auto;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute; 
+    z-index: 3;
+}
+
+.HomePop1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.Pop1VideoSct {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Pop1Video {
+    height: 100vh;
+    width: auto;
+}
+
+.Pop1Infos {
+    position: absolute;
+    top: 75vh;
+    margin-left: 3vw;
+}
+
+.Pop1Title {
+    color: #ffffff;
+    font-size: 3.5vh;
+    font-weight: 600;
+}
+
+.Pop1btn {
+    width: 93.5vw;
+    height: 8vh;
+    font-size: 2vh;
+    border-radius: 3px;
+    border: none;
+    color: #00665e;
+}
+
+.Pop1btn:hover {
+    background-color: #e5f5f4;
+    border: none;
+    cursor: pointer;
+}
